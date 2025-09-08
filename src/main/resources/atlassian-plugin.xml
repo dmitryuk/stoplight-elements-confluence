@@ -29,6 +29,13 @@
                 <value name="stacked" />
                 <option key="showValueInPlaceholder" value="true"/>
             </parameter>
+            <parameter name="router" type="enum" default="history" >
+                <value name="history" />
+                <value name="hash" />
+                <value name="memory" />
+                <value name="static" />
+                <option key="showValueInPlaceholder" value="true"/>
+            </parameter>
             <parameter name="link" type="url" required="true" >
                 <option key="showValueInPlaceholder" value="true"/>
             </parameter>
