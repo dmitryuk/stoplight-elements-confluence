@@ -26,6 +26,7 @@ public class StoplightElementsPreviewer implements Macro {
 
         return "<elements-api" +
                 " layout=\"" + getParameterFallback(parameters, "layout", "sidebar") +"\"" +
+                " router=\"" + getParameterFallback(parameters, "router", "history") +"\"" +
                 " apiDescriptionUrl=\"" + parameters.get("link") + "\"" +
                 getBoolean(parameters, "hideInternal") +
                 getBoolean(parameters, "hideTryIt") +
